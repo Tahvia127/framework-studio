@@ -42,7 +42,8 @@ cwebp -q 82 -resize 1200 0 shot.png -o assets/img/example.webp && rm shot.png
 
 ## Design notes
 
-- **Type:** Space Grotesk for display, Inter for body, both from Google Fonts.
-- **Color:** near-white `#FBFAF8`, ink `#111110`, single accent `#1F4FD8`.
+- **Type:** DM Serif Display for headings, Space Mono for body and labels, both from Google Fonts.
+- **Color:** cream `#F7F0E4`, ink `#2A1C16`, brick red `#B4322A`. Every text pairing clears WCAG AA (lowest is 4.71:1).
+- **Motifs:** parenthetical section labels, a red scrolling marquee, asterisk accents, hard-bordered cards that cast a solid red shadow on hover.
 - **Accessibility:** skip link, visible focus rings, semantic landmarks, and full `prefers-reduced-motion` support.
 - **Images** are WebP, capped at 1200px wide, lazy-loaded below the fold.
