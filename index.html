@@ -10,14 +10,17 @@
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Pinyon+Script&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>:root{--daisy-mask:url("assets/img/daisy.svg")}</style>
 <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="nav" id="nav"><div class="shell">
-  <a class="brand" href="#top">Framework <b>Studio</b> <span class="star">&#10043;</span></a>
+  <a class="brand" href="#top"><svg class="daisy" viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(0 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(45 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(90 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(135 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(180 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(225 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(270 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(315 32 32)"/></g><circle cx="32" cy="32" r="6.5" fill="#C9A24B"/></svg>Framework <i>Studio</i></a>
   <nav aria-label="Primary"><ul>
     <li><a href="#work">Work</a></li>
     <li><a href="#services">Services</a></li>
@@ -30,25 +33,20 @@
 <main id="main">
 
 <section class="hero" id="top"><div class="shell">
-  <div>
-    <p class="lbl">Web Design Studio &mdash; Chicago</p>
-    <h1>Websites that earn their keep, <em>built to last.</em></h1>
-    <p class="lede">I design and build fast, accessible websites for small businesses, nonprofits and creatives. Fixed prices, clear timelines, and a site you can update yourself the day it ships.</p>
-    <div class="hero-cta">
-      <a class="btn solid" href="#contact">Book a discovery call</a>
-      <a class="btn ghost" href="#work">See the work</a>
-    </div>
-    <p class="slashes">Now booking 2026 // 3&ndash;7 week builds // 50% to start</p>
+  <p class="lbl rv">Web Design Studio &mdash; Chicago</p>
+  <h1 class="rv">Websites that earn their keep, <em>built to last.</em></h1>
+  <p class="lede rv">I design and build fast, accessible websites for small businesses, nonprofits and creatives. Fixed prices, clear timelines, and a site you can update yourself the day it ships.</p>
+  <div class="hero-cta rv">
+    <a class="btn solid" href="#contact">Book a discovery call</a>
+    <a class="btn ghost" href="#work">See the work</a>
   </div>
-  <div class="frame rv"><div class="in"><img src="assets/img/projectunity.webp" alt="Project Unity NFP, a recent Framework Studio build" width="1200" height="833"></div></div>
+  <p class="slashes rv">Now booking 2026 &nbsp;//&nbsp; 3&ndash;7 week builds &nbsp;//&nbsp; 50% to start</p>
+  <figure class="hero-frame rv">
+    <div class="in"><img src="assets/img/techforgood.webp" alt="Tech For Good Conference 2026 website" width="1400" height="953"></div>
+    <figcaption>Tech For Good Conference 2026 &mdash; techforgoodconference.org</figcaption>
+  </figure>
 </div></section>
 
-<section class="band"><div class="shell">
-  <div><b>5 yrs</b><span>Designing &amp; shipping</span></div>
-  <div><b>100%</b><span>Hand-built, no bloat</span></div>
-  <div><b>WCAG</b><span>Accessible by default</span></div>
-  <div><b>You own it</b><span>Your domain, your code</span></div>
-</div></section>
 
 <section class="section" id="work"><div class="shell">
   <div class="head rv">
@@ -58,7 +56,7 @@
   </div>
   <div class="work-grid">
 
-    <article class="proj rv">
+    <article class="proj rv" style="--i:0">
       <div class="shot"><img src="assets/img/projectunity.webp" alt="Project Unity NFP website homepage" loading="lazy" width="1200" height="833"></div>
       <div class="bd">
         <p class="cat">Nonprofit &middot; Full Build</p>
@@ -69,7 +67,7 @@
       </div>
     </article>
 
-    <article class="proj rv">
+    <article class="proj rv" style="--i:1">
       <div class="shot"><img src="assets/img/rightswithin.webp" alt="Rights Within Reach multilingual legal information site" loading="lazy" width="1200" height="833"></div>
       <div class="bd">
         <p class="cat">Civic Tech &middot; Web App</p>
@@ -80,7 +78,7 @@
       </div>
     </article>
 
-    <article class="proj rv">
+    <article class="proj rv" style="--i:2">
       <div class="shot"><img src="assets/img/publicpath.webp" alt="PublicPath public-sector job board" loading="lazy" width="1200" height="833"></div>
       <div class="bd">
         <p class="cat">Product &middot; Data Platform</p>
@@ -91,14 +89,14 @@
       </div>
     </article>
 
-    <article class="proj rv">
-      <div class="shot"><img src="assets/img/portfolio.webp" alt="La'Tahvia Williams personal portfolio site" loading="lazy" width="1200" height="833"></div>
+    <article class="proj rv" style="--i:3">
+      <div class="shot"><img src="assets/img/techforgood.webp" alt="Tech For Good Conference 2026 website" loading="lazy" width="1400" height="953"></div>
       <div class="bd">
-        <p class="cat">Editorial &middot; Personal Brand</p>
-        <h3>Portfolio, rebuilt</h3>
-        <p>A personal site taken from 80KB of tangled inline styles to 19KB with a real design system, and 90MB of imagery down to 4.4MB. Same content, a fraction of the weight, and it finally loads on a phone.</p>
-        <ul><li>Performance</li><li>Design system</li><li>WebP</li><li>Motion</li></ul>
-        <a class="lk" href="https://tahvia127.github.io/" target="_blank" rel="noopener noreferrer">Visit the site</a>
+        <p class="cat">Conference &middot; Full Build</p>
+        <h3>Tech For Good Conference</h3>
+        <p>The 2026 conference site for the University of Chicago: program, speakers, team and registration, with a live countdown and sponsor placements. Hybrid event, so it had to work as well for a remote attendee as an in-person one.</p>
+        <ul><li>HTML/CSS/JS</li><li>Registration</li><li>Countdown</li><li>Responsive</li></ul>
+        <a class="lk" href="https://techforgoodconference.org/" target="_blank" rel="noopener noreferrer">Visit the site</a>
       </div>
     </article>
 
@@ -115,17 +113,17 @@
   </div>
   <div class="svc-grid">
     <div class="svc rv">
-      <p class="n">01</p><h3>Website Design &amp; Build</h3>
+      <svg class="daisy" viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(0 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(45 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(90 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(135 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(180 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(225 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(270 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(315 32 32)"/></g><circle cx="32" cy="32" r="6.5" fill="#C9A24B"/></svg><h3>Website Design &amp; Build</h3>
       <p>Custom, responsive sites built by hand. No bloated page builders, no template you'll outgrow in a year.</p>
       <ul><li>Mobile-first, tested on real devices</li><li>SEO fundamentals and analytics</li><li>CMS so you can edit it yourself</li><li>Accessibility to WCAG 2.1 AA</li></ul>
     </div>
     <div class="svc rv">
-      <p class="n">02</p><h3>Brand &amp; Identity</h3>
+      <svg class="daisy" viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(0 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(45 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(90 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(135 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(180 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(225 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(270 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(315 32 32)"/></g><circle cx="32" cy="32" r="6.5" fill="#C9A24B"/></svg><h3>Brand &amp; Identity</h3>
       <p>Logo suites, color systems and guidelines for businesses that want to look as professional as they already are.</p>
       <ul><li>Logo suite and variations</li><li>Color and typography system</li><li>Brand guidelines document</li><li>Print and web-ready files</li></ul>
     </div>
     <div class="svc rv">
-      <p class="n">03</p><h3>Data &amp; Dashboards</h3>
+      <svg class="daisy" viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(0 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(45 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(90 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(135 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(180 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(225 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(270 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(315 32 32)"/></g><circle cx="32" cy="32" r="6.5" fill="#C9A24B"/></svg><h3>Data &amp; Dashboards</h3>
       <p>The part most studios can't do. Turn the numbers you already have into something a donor or board member can read.</p>
       <ul><li>Impact and reporting dashboards</li><li>Interactive charts and maps</li><li>Data cleaning and analysis</li><li>Automated recurring reports</li></ul>
     </div>
@@ -139,10 +137,10 @@
     <p>No mystery, no scope creep. You know what you're getting, when, and what it costs before anything starts.</p>
   </div>
   <div class="steps rv">
-    <div class="step"><p class="n">01</p><h3>Discovery call</h3><p>We talk through your goals, timeline and budget. I recommend the right package and answer everything.</p></div>
-    <div class="step"><p class="n">02</p><h3>Proposal &amp; contract</h3><p>You get a detailed scope and a contract. A 50% deposit holds your spot in the schedule.</p></div>
-    <div class="step"><p class="n">03</p><h3>Design &amp; build</h3><p>I work through the agreed deliverables with regular check-ins and revision rounds built into the timeline.</p></div>
-    <div class="step"><p class="n">04</p><h3>Launch &amp; support</h3><p>Balance is due before launch. Post-launch support is included, and a retainer is there if you want it.</p></div>
+    <div class="step"><svg class="daisy" viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(0 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(45 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(90 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(135 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(180 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(225 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(270 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(315 32 32)"/></g><circle cx="32" cy="32" r="6.5" fill="#C9A24B"/></svg><h3>Discovery call</h3><p>We talk through your goals, timeline and budget. I recommend the right package and answer everything.</p></div>
+    <div class="step"><svg class="daisy" viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(0 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(45 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(90 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(135 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(180 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(225 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(270 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(315 32 32)"/></g><circle cx="32" cy="32" r="6.5" fill="#C9A24B"/></svg><h3>Proposal &amp; contract</h3><p>You get a detailed scope and a contract. A 50% deposit holds your spot in the schedule.</p></div>
+    <div class="step"><svg class="daisy" viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(0 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(45 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(90 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(135 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(180 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(225 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(270 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(315 32 32)"/></g><circle cx="32" cy="32" r="6.5" fill="#C9A24B"/></svg><h3>Design &amp; build</h3><p>I work through the agreed deliverables with regular check-ins and revision rounds built into the timeline.</p></div>
+    <div class="step"><svg class="daisy" viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(0 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(45 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(90 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(135 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(180 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(225 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(270 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(315 32 32)"/></g><circle cx="32" cy="32" r="6.5" fill="#C9A24B"/></svg><h3>Launch &amp; support</h3><p>Balance is due before launch. Post-launch support is included, and a retainer is there if you want it.</p></div>
   </div>
 </div></section>
 
@@ -223,6 +221,7 @@
 
 <section id="contact"><div class="shell">
   <div class="cta rv">
+    <svg class="daisy" viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(0 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(45 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(90 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(135 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(180 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(225 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(270 32 32)"/><ellipse cx="32" cy="14.5" rx="6" ry="11" transform="rotate(315 32 32)"/></g><circle cx="32" cy="32" r="6.5" fill="#C9A24B"/></svg>
     <h2>Let&rsquo;s talk about <em>your site</em></h2>
     <p>Tell me what you're building and roughly what you want to spend. If I'm not the right fit I'll say so and point you somewhere better.</p>
     <div class="hero-cta" style="justify-content:center">
