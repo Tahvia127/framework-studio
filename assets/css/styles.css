@@ -106,6 +106,13 @@ h1 em{font-family:var(--f-s);font-style:normal;color:var(--wine);font-size:1.22e
 .proj .lk::after{content:' \2197';display:inline-block;transition:transform .35s var(--e)}
 .proj:hover .lk::after{transform:translate(3px,-3px)}
 
+
+/* ---------- work group labels ---------- */
+.grouplbl{font-family:var(--f-m);font-size:.63rem;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--wine);margin:0 0 1.2rem;display:flex;align-items:center;gap:.9rem}
+.grouplbl::after{content:'';flex:1;height:1px;background:var(--line)}
+.work-grid + .grouplbl{margin-top:clamp(2.6rem,5vw,4rem)}
+
 /* ---------- services ---------- */
 .svc-grid{display:grid;gap:1.4rem;grid-template-columns:repeat(auto-fit,minmax(268px,1fr))}
 .svc{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:2rem 1.7rem;text-align:center;
