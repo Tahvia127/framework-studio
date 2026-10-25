@@ -26,9 +26,9 @@ Then open <http://localhost:8000>.
 
 | What | Where |
 |---|---|
-| Prices | The `.tiers` block in `index.html`, and the `.addons` table below it |
-| Availability banner | The `.tagline` paragraph at the top of the hero |
-| Work samples | The four `<article class="proj">` blocks in `#work` |
+| Prices | The `.kit` Launch Kit card, the `.tiers` block in `index.html`, and the `.addons` table below it |
+| Availability banner | The `.slashes` paragraph in the hero, and the `MSG` list in the script at the bottom |
+| Work samples | The `<article class="proj">` blocks in `#work` (four in production, nine concepts) |
 | Hero preview | The `<figure class="hero-frame">` at the end of the hero |
 | FAQ | The `<details>` elements in `#faq` |
 
