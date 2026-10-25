@@ -87,7 +87,8 @@ h1 em{font-family:var(--f-s);font-style:normal;color:var(--wine);font-size:1.22e
 .head p{margin:1.3rem auto 0;color:var(--soft)}
 
 /* ---------- work ---------- */
-.work-grid{display:grid;gap:clamp(1.8rem,3.4vw,2.8rem);grid-template-columns:repeat(auto-fit,minmax(330px,1fr))}
+.work-grid{display:grid;gap:clamp(1.8rem,3.4vw,2.8rem);grid-template-columns:1fr}
+@media(min-width:800px){.work-grid{grid-template-columns:1fr 1fr}}
 .proj{display:flex;flex-direction:column}
 .proj .shot{position:relative;aspect-ratio:16/10.6;border:1px solid var(--ink);border-radius:4px;
   overflow:hidden;background:var(--cream);transition:transform .55s var(--e),box-shadow .55s var(--e)}
@@ -105,13 +106,6 @@ h1 em{font-family:var(--f-s);font-style:normal;color:var(--wine);font-size:1.22e
   border-bottom:1px solid var(--wine);padding-bottom:2px;display:inline-block}
 .proj .lk::after{content:' \2197';display:inline-block;transition:transform .35s var(--e)}
 .proj:hover .lk::after{transform:translate(3px,-3px)}
-
-
-/* ---------- work group labels ---------- */
-.grouplbl{font-family:var(--f-m);font-size:.63rem;letter-spacing:.26em;text-transform:uppercase;
-  color:var(--wine);margin:0 0 1.2rem;display:flex;align-items:center;gap:.9rem}
-.grouplbl::after{content:'';flex:1;height:1px;background:var(--line)}
-.work-grid + .grouplbl{margin-top:clamp(2.6rem,5vw,4rem)}
 
 /* ---------- services ---------- */
 .svc-grid{display:grid;gap:1.4rem;grid-template-columns:repeat(auto-fit,minmax(268px,1fr))}
